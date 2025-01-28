@@ -7,9 +7,12 @@ public class UnitTest1
     {
         Assert.True(true);
     }
-    
+
+    [Fact]
     public void FalseIsFalse()
     {
-        Assert.False(!true);
+        // This was stupid
+        Assert.False(false);
+        Asser.True(!false);
     }
 }
